@@ -3,14 +3,20 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {FormsModule} from "@angular/forms";
+import { PeliculaBannerComponent } from './Peliculas/pelicula-banner/pelicula-banner.component';
+
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PeliculaBannerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

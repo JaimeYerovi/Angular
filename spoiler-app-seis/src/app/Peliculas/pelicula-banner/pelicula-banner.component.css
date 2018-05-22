@@ -1,16 +1,35 @@
-
-.sa-fondo-pelicula-banner{
-  /*propiedad:valor de la propiedad */
-  background-color:black;
-
+.sa-fondo-pelicula-banner {
+  background-color: #000;
+  border-style: solid;
+  border-color: #000;
+  border-width: 10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(34%);
+  width: 600px;
+  height: 400px;
 }
 
+.sa-color-letras-pelicula-banner {
+  color: #fff
+}
 
+.sa-fondo-estado {
+  max-width: 120px;
+  text-align: center;
+}
 
+.sa-color-estado-amarillo {
+  background-color: #fabb00;
+}
 
+.sa-color-estado-rosado {
+  background-color: #e3003e;
+}
 
-.sa-color-letras-pelicula-banner{
-  /*propiedad:valor de la propiedad */
-  color: white;
-
+.sa-espaciado {
+  height: 250px;
 }
